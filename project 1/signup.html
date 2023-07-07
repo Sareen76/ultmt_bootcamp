@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Registration Form</title>
+    </head>
+    <body>
+        <form action>
+            Student Name : <input type="text"> (max 30 characters a-z and A-Z)<br><br>
+            Father's Name : <input type="text"> (max 30 characters a-z and A-Z)<br><br>
+            Mother's Name : <input type="text"> (max 30 characters a-z and A-Z)<br><br>
+            Date of Birth : <input type="date"><br><br>
+            Gender : <input type="radio" value="male" name="gender">Male<input
+                type="radio" value="female" name="gender">Female <br><br>
+            Email Id : <input type="email"><br><br>
+            : <input type="text"><br><br>
+            Department : <input list="dept" placeholder=" Department">
+            <datalist id="dept">
+                <option value="CSE">
+                    <option value="ECE">
+                        <option value="EEE">
+                        </option>
+                    </option>
+                </option>
+            </datalist>
+            <br><br>
+            Mobile Number : <input type="text"><br><br>
+            Address : <textarea name id cols="30" rows="10"></textarea><br><br>
+            City : <input type="text"><br><br>
+            Pin Code : <input type="number"><br><br>
+
+             Qualification : <table border="1">
+                <tr>
+                    <th>Sl.No.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Master</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+
+            </table>
+        </form>
+    </body>
+</html>
